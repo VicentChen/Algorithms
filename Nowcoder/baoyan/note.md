@@ -20,3 +20,14 @@
 ## 打印模式
  - 使用C可能更灵活
  - 必要时使用双缓冲
+
+## 查找
+ - 二分法
+ ```
+ while(l <= r) {
+   m = (l + r) / 2;
+   if (a[m] < target) l = m + 1; // m + 1 而不是 m
+   else if (a[m] > target) r = m - 1; // m - 1 而不是 m
+   else // hit
+ }
+ ```
