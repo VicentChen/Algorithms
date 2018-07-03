@@ -57,6 +57,29 @@
 ## 二叉排序树
  - 删除：使用**没有重复节点的分支**替代被删除节点
 
+# 数学问题
+## %
+ - 运行时错误可能为`mod 0`
+ - "安全"的`mod`: `(a % b + b) % b`
+```
+// C standard integer pow
+int ipow(int base, int exp)
+{
+    int result = 1;
+    for (;;)
+    {
+        if (exp & 1)
+            result *= base;
+        exp >>= 1;
+        if (!exp)
+            break;
+        base *= base;
+    }
+
+    return result;
+}
+```
+
 # 补充
 
 ## 正确性
