@@ -85,6 +85,7 @@ int ipow(int base, int exp)
 ## 正确性
  - 注意边界值如 0，/0等
  - 注意不大于、不小于、大于、小于、等于的边界
+ - `longlong = int + int`计算顺序为`int + int`, `long long (result)`
 
 ## 时间复杂度
  - 1s 约 运算 10^8，保守估计10^6次
