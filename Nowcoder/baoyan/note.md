@@ -80,6 +80,15 @@ int ipow(int base, int exp)
 }
 ```
 
+## 最大公约数
+ - 辗转相除法
+```
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    else return gcd(b, a % b);
+}
+```
+
 # 补充
 
 ## 正确性
