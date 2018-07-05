@@ -89,6 +89,17 @@ int gcd(int a, int b) {
 }
 ```
 
+## 素数判定
+ - 直接法
+```
+bool isPrime(int N) {
+    int bound = (int)sqrt(N);
+    for (int i = 2; i <= bound; i++)
+        if (N % i == 0) return false;
+    return true;
+}
+```
+
 # 补充
 
 ## 正确性
