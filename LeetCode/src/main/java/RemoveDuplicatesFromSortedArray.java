@@ -1,5 +1,3 @@
-package com.vicentchen.leetcode;
-
 /**
  * Created by Vicent_Chen on 2018/3/25.
  * 26. Remove Duplicates from Sorted Array

@@ -1,5 +1,3 @@
-package com.vicentchen.leetcode;
-
 /**
  * Created by Vicent_Chen on 2018/3/28.
  * 11. Container With Most Water

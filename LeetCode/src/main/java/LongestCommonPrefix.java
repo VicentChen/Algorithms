@@ -1,5 +1,3 @@
-package com.vicentchen.leetcode;
-
 import java.util.LinkedList;
 import java.util.List;
 

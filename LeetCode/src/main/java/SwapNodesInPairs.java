@@ -1,5 +1,3 @@
-package com.vicentchen.leetcode;
-
 /**
  * Created by Vicent_Chen on 2018/4/1.
  * 24. Swap Nodes in Pairs
