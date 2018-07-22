@@ -2,3 +2,10 @@
 *.exe
 resources/
 test/
+backup/
+assignments/*
+!assignments/*.md
+!assignments/*.java
+.settings/
+.classpath
+.project
