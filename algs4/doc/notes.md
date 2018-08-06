@@ -140,3 +140,14 @@ void swim(int k) {                |  void sink(int k) {
  - **从数组中构建堆只需要线性时间**
  - 堆排序保证$NlogN$复杂度
  - **缺点：**不稳定、Cache命中率低、
+
+## 3 Searching
+
+### 3.1 Elementary Symbol Tables
+符号表：将值关联于一个键上
+
+#### 操作
+ - 删除： **延时删除**、**即时删除**
+
+### 3.2 Binary Search Tree
+ - **经过多次插入、删除后可能变得不对称**
