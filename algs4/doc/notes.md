@@ -151,3 +151,12 @@ void swim(int k) {                |  void sink(int k) {
 
 ### 3.2 Binary Search Tree
  - **经过多次插入、删除后可能变得不对称**
+
+### 3.3 Balanced Search Trees
+
+#### 2-3树
+**完美平衡的2-3树所有null节点到根节点的距离相等**
+
+#### 红黑树 
+ - 插入：左黑右红左旋，连续左红右旋，左红右红颜色转换
+ - **flipping color:** `root`记得设为红色
